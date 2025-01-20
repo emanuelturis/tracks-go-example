@@ -1,3 +1,3 @@
 #!/bin/sh
 set -e
-go build -o out .
+go build -C /local/repository -o /local/bin/out
